@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import './Toolbar.css'
 import logoPrefeitura from "../../assets/logoPrefeitura.png"
+import { CgClose } from "react-icons/cg";
+
 
 
 const Toolbar = () => {
-    const [itemSelecionado, setItemSelecionado] = useState(null)
+    const [itemSelecionado, setItemSelecionado] = useState(0)
 
     const handleClickItem = (index) => {
         setItemSelecionado(index)
@@ -16,6 +18,10 @@ const Toolbar = () => {
                 <div className="Toolbar-logo">
                     <img src={logoPrefeitura} alt="logo" />
                 </div>
+                <div className='button-close-toolbar'>
+                    <CgClose onClick={() => {}} />
+                </div>
+                
                 <div className="menus">
                     <div 
                         className={itemSelecionado === 0 ? "item selected" : "item"}
