@@ -1,0 +1,22 @@
+.blocos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    height: 120px;
+}
+
+.blocos h2 {
+    color: #FFFFFF;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.blocos h3 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 500;
+    margin: 5px;
+}

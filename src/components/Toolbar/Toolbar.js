@@ -5,11 +5,12 @@ import { CgClose } from "react-icons/cg";
 
 
 
-const Toolbar = () => {
+const Toolbar = (props) => {
     const [itemSelecionado, setItemSelecionado] = useState(0)
 
     const handleClickItem = (index) => {
         setItemSelecionado(index)
+        props.setMenuSelecionado(index)
     }
 
     return (
