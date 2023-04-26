@@ -1,6 +1,8 @@
 import React from "react";
 import "./Modulos.css"
 import Navbar from "../../components/Navbar/Navbar";
+import { Link } from 'react-router-dom'
+
 
 function Modulos() {
     return (
@@ -11,9 +13,9 @@ function Modulos() {
                     <h1>Módulos de Acesso</h1>
                 </div>
                 <div className="modulos-content">
-                    <div className="blocos">
+                    <Link to="/gerador" className="blocos">
                         <h1>Gerador</h1>
-                    </div>
+                    </Link>
                     <div className="blocos">
                         <h1>Transportador</h1>
                     </div>

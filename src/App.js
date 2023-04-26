@@ -5,6 +5,7 @@ import Home from './pages/Home/Home';
 import Login from './pages/Login/Login';
 import Modulos from './pages/Modulos/Modulos';
 import PrivateRoutes from './utils/PrivateRoutes';
+import Gerador from './pages/Gerador/Gerador';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route element={<PrivateRoutes />}>
             <Route path="/" exact element={<Home />} />
             <Route path="/modulos" element={<Modulos />} />
+            <Route path="/gerador" exact element={<Gerador />} />
           </Route>
         </Routes>
       </Router>

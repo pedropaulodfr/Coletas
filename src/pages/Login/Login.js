@@ -1,15 +1,19 @@
 import React from "react";
 import { useState, useEffect } from 'react';
-import { Route, Redirect } from 'react-router-dom';
+import { Route, Redirect, useNavigate } from 'react-router-dom';
 import "./Login.css";
 import Navbar from "../../components/Navbar/Navbar";
 import logoPrefeitura from "../../assets/logoPrefeitura.png";
 import Footer from "../../components/Footer/Footer";
+import Cookies from 'js-cookie';
+import { nanoid } from 'nanoid'
 
 function Login(props) {
+    const navigate = useNavigate();
 
     const handleLogin = () => {
-        
+        Cookies.set('token', nanoid()); 
+        navigate('/modulos')
       };
 
     return (
