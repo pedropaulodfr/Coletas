@@ -34,7 +34,7 @@ const Gerador = () => {
                             <h3>Baixadas</h3>
                             <h2>34</h2>
                         </div>
-                        <div className="blocos">
+                        <div className="blocos" style={{backgroundColor: '#973838'}}>
                             <h3>Recusadas no Destino Final</h3>
                             <h2>2</h2>
                         </div>

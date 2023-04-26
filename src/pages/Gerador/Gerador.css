@@ -25,6 +25,10 @@
 
 .conteudo-aba {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    max-width: calc(3 * 200px);
     width: 50vw;
     height: 500px;
     margin-top: 15px;
@@ -36,7 +40,7 @@
 .blocos {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 150px;
     height: 120px;
