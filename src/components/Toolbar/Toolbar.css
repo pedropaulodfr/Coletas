@@ -1,9 +1,7 @@
-.Toolbar {
-    height: 100vh;
-}
 .Toolbar-container {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
     height: 100%;
     width: 15vw;
     background-color: #FFFFFF;
