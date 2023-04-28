@@ -1,4 +1,6 @@
 import React from "react";
+import './CadastroPGRCC.css'
+import ListaPGRCC from "../../../components/ListaPGRCC/ListaPGRCC";
 
 const CadastroPGRCC = () => {
     return (
@@ -7,8 +9,8 @@ const CadastroPGRCC = () => {
                 <div className="titulo-aba">
                     <h1>PGRCC</h1>
                 </div>
-                <div className="conteudo-aba">
-
+                <div className="conteudo-aba conteudo-pgrcc">
+                    <ListaPGRCC />
                 </div>
             </div>
         </div>
