@@ -94,7 +94,17 @@ const TabelaPGRCC = (props) => {
                             <td>
                                 <h2 className="status">{"Autorizado"}</h2>
                             </td>
-                            <td>{"ponto.latitude"}</td>
+                            <td>
+                                <button 
+                                    className="excluir-btn" 
+                                    onClick={() => {
+                                        setPontoVendaSelecionadoId("ponto.id");
+                                        setShowModal(true)
+                                    }}
+                                >
+                                    Encerrar
+                                </button>
+                            </td>
                             <td>
                             <button 
                                     className="mapa-btn"
@@ -103,7 +113,7 @@ const TabelaPGRCC = (props) => {
                                         setShowModalMapa(true);
                                     }}
                                 >
-                                    Mapa
+                                    Impressão
                                 </button>
                                 <button 
                                     className="editar-btn"
@@ -139,6 +149,7 @@ const TabelaPGRCC = (props) => {
                                     />
                                 )}
                             </td>
+                            <td>11/01/2024</td>
                         </tr>
                      {/* ))} */}
                 </tbody>

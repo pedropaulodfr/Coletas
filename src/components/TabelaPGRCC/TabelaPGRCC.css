@@ -1,11 +1,11 @@
 .tabela-pgrcc{
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
 }
 
 table {
-    text-align: justify;
+    text-align: left;
 }
 
 tr, td, th {
@@ -22,8 +22,7 @@ th {
     width: 80px;
     height: 25px;
     text-align: center;
-    color: #ffffff;
-    background-color: #219653;
+    font-weight: normal;
 }
 
 .statusInativo {
@@ -38,33 +37,36 @@ th {
 }
 
 .mapa-btn {
-    width: 70px;
-    height: 40px;
+    width: 60px;
+    height: 30px;
     border: none;
     border-radius: 5px;
     color: #ffffff;
     background-color: #4B9738;
     cursor: pointer;
+    font-size: .7em;
 }
 
 .editar-btn {
-    width: 70px;
-    height: 40px;
+    width: 60px;
+    height: 30px;
     border: none;
     border-radius: 5px;
     margin-left: 10px;
     color: #ffffff;
+    font-size: .7em;
     background-color: #256789;
     cursor: pointer;
 }
 
 .excluir-btn {
-    width: 70px;
-    height: 40px;
+    width: 60px;
+    height: 30px;
     border: none;
     border-radius: 5px;
     margin-left: 10px;
     color: #ffffff;
     background-color: #B41616;
+    font-size: .7em;
     cursor: pointer;
 }

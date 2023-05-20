@@ -13,19 +13,19 @@ function Modulos() {
                     <h1>Módulos de Acesso</h1>
                 </div>
                 <div className="modulos-content">
-                    <Link to="/gerador" className="blocos">
+                    <Link to="/gerador" className="blocos-modulos">
                         <h1>Gerador</h1>
                     </Link>
-                    <div className="blocos">
+                    <div className="blocos-modulos">
                         <h1>Transportador</h1>
                     </div>
-                    <div className="blocos">
+                    <div className="blocos-modulos">
                         <h1>Destino Final</h1>
                     </div>
-                    <div className="blocos">
+                    <div className="blocos-modulos">
                         <h1>Fiscalização</h1>
                     </div>
-                    <div className="blocos">
+                    <div className="blocos-modulos">
                         <h1>Secretaria</h1>
                     </div>
                 </div>

@@ -5,6 +5,12 @@
     align-items: center;
     width: 150px;
     height: 120px;
+    background-color: #4B9738;
+    border-radius: 10px;
+    margin: 20px;
+    text-decoration: none;
+    outline: hidden;
+    cursor: pointer;
 }
 
 .blocos h2 {
