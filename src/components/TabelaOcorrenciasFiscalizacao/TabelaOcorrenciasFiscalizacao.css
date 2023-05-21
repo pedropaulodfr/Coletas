@@ -1,0 +1,9 @@
+a {
+    color: #256789;
+    font-weight: 500;
+}
+
+.data-text, .hour-text {
+    font-size: 1em;
+    font-weight: 400;
+}
