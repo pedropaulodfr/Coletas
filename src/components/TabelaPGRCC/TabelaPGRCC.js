@@ -106,7 +106,7 @@ const TabelaPGRCC = (props) => {
                                 </button>
                             </td>
                             <td>
-                            <button 
+                                <button 
                                     className="mapa-btn"
                                     onClick={() => {
                                         setPontoVendaSelecionadoId("ponto.id");

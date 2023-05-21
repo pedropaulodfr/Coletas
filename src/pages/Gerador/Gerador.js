@@ -5,6 +5,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import InicioModulo from "../../Menus/Gerador/InicioModulo/InicioModulo";
 import CadastroPGRCC from "../../Menus/Gerador/CadastroPGRCC/CadastroPGRCC";
 import Portaria from "../../Menus/Gerador/Portaria/Portaria";
+import Relatorios from "../../Menus/Gerador/Relatorios/Relatorios";
 
 
 const Gerador = () => {
@@ -19,6 +20,7 @@ const Gerador = () => {
                 {menuSelecionado === 0 ? <InicioModulo /> : <></>}
                 {menuSelecionado === 1 ? <CadastroPGRCC /> : <></>}
                 {menuSelecionado === 2 ? <Portaria /> : <></>}
+                {menuSelecionado === 3 ? <Relatorios /> : <></>}
             </div>
         </div>
     )

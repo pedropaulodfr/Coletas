@@ -18,7 +18,7 @@ const ListaPGRCC = () => {
                 </Link>
             </div>
 
-             <div className='lista-pgrcc-content'>
+            <div className='lista-pgrcc-content'>
                 <div className='lista-body'>
                     <div className='lista-top'>
                         <h2 className="pgrcc-title">Projetos</h2>

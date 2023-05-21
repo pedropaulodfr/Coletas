@@ -1,0 +1,18 @@
+.relatorio-nome {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.relatorio-descricao {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+table {
+    width: 100%;
+}
+
+
+td {
+    border-top: solid 1px #DFE0EB;
+}
